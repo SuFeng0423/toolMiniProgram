@@ -1,0 +1,48 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/index/index",
+			"style": {
+			}
+		},
+		{
+			"path": "pages/second/index",
+			"style": {
+			}
+		},
+		{
+			"path": "pages/third/index",
+			"style": {
+			}
+		}
+	],
+	"globalStyle": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "滴答叮咚",
+		"navigationBarTextStyle": "black"
+	},
+	"tabBar": {
+		"color": "#C5C8CD",
+		"selectedColor": "#000000",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/second/index",
+				"text": "第二页"
+			},
+			{
+				"pagePath": "pages/third/index",
+				"text": "我的"
+			}
+		]
+	},
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	}
+}
